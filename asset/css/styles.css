@@ -1,0 +1,33 @@
+body{
+    color: black;
+}
+table{
+   
+    border-spacing: 0;
+    border: 1px solid #dddddd;
+    margin-top:60px;
+    width:100%;
+    empty-cells: show;
+    border: 1px sold black;
+}
+td,th{
+    padding: 20px;
+    margin:10px;
+    text-align: center;
+}
+
+th{
+    background-color: white;
+}
+
+tr:nth-child(odd){
+    background-color: #f2f2f2;
+} 
+.capsticky{
+    position:fixed;
+    top: 0;
+    right:50%;
+    background-color: black;
+    color:white;
+    height:50px;
+}
